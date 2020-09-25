@@ -1,0 +1,7 @@
+(a) There should be two (but I had to create the status file again so maybe 3)
+(b) It was the original files so when I coned the forked the repository
+(c) git status lets me see the directory and git log only displays.operates on committed history.
+(d) An untracked file is a file that was not there in the last save/snapshot of repository
+and an unstaged file has its contents in the working tree which are different to its contents in the index
+(e) Git reset updates the index moving the front and git checkout updates the working tree.
+(f) The uncommitted changes will not be reflected. 
