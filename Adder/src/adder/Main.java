@@ -8,7 +8,7 @@ class Main {
 	    if(args.length ==0)
 		throw new ArrayIndexOutOfBoundsException();
             System.out.println(result);
-        } catch (NumberFormatException e) {
+        } catch (NumberFormatException n) {
             System.out.println("Invalid numbers");
         }catch(ArrayIndexOutOfBoundsException e){
 		System.out.println("Not enough integers");
